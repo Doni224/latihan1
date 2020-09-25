@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pseudo class</title>
+    <style>
+        a:link{
+            color: brown;
+
+        }
+        a:hover{
+            font-size: larger;
+            color:orange;
+        }
+        a:active{
+            color: navy{253,171,219};
+        }
+        a:visited{
+            color: black;
+        }
+        /* li:first-child a{
+            display: none;
+        }
+        li:last-child a{
+            color: chocolate;
+        }
+         */
+         li:nth-child(2n+1) a{
+             color: black;
+         }
+         li:nth-child(2n) a{
+             color: blueviolet;
+         }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">link ke1</a></li>
+        <li><a href="1">link ke2</a></li>
+        <li><a href="2">link ke3</a></li>
+        <li><a href="3">link ke4</a></li>
+        <li><a href="4">link ke5</a></li>
+        <li><a href="5">link ke1</a></li>
+        <li><a href="6">link ke2</a></li>
+        <li><a href="7">link ke3</a></li>
+        <li><a href="8">link ke4</a></li>
+        <li><a href="9">link ke5</a></li>
+    </ul>
+</body>
+</html>
