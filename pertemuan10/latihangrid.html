@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Latihan Gird</title>
+    <Style>
+        .container{
+            width: 80%;
+            margin: 50px auto;
+            padding: 10px;
+            display: grid;
+            grid-auto-flow: column;
+             grid-template-columns: repeat(auto); 
+             /* grid-auto-rows:80px; 
+            grid-gap: 10px;
+            grid-template-rows: 30px 70px; */
+            /* grid-template-rows: repeat(3, 150px);
+            grid-auto-columns: 50px; */
+        }
+        .item{
+            background-color: rgb(216, 218, 218);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .item:nth-child(even){
+            background-color: gold;
+        }   
+    </Style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+        
+        
+    </div>
+</body>
+</html>
